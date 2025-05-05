@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\patri\Dropbox\KiCAD\Track-your-cat\Track-your-cat.sch</source>
+    <date>02/12/2020 09:03:37</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Track your Cat GPS Empfänger</title>
+        <company/>
+        <rev>6</rev>
+        <date>2020-11-16</date>
+        <source>Track-your-cat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Y1">
+      <value>MCU_Quarz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Mouser Part Nbr.">ABM8AIG-8.000MHZ-1Z-T</field>
+        <field name="Mouser Part Number">ABM8AIG-8.000MHZ-1Z-T</field>
+        <field name="Name">Crystal</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2DEC8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS636 SM50 SMTR LFS</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">THT</field>
+        <field name="Mouser Part Nbr.">PTS636 SM50 SMTR LFS</field>
+        <field name="Mouser Part Number">PTS636 SM50 SMTR LFS</field>
+        <field name="Name">Switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA319EF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>36p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA39858</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>36p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3A7AF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Mouser Part Nbr.">Amphenol 10118193-0001LF</field>
+        <field name="Mouser Part Number">Amphenol 10118193-0001LF</field>
+        <field name="Name">Micro USB typ B</field>
+      </fields>
+      <libsource lib="Track-your-cat-rescue" part="USB_B_Micro-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3D968</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6E262</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6E891</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA81890</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8D9A0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA96F9D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA97279</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA975CE</tstamp>
+    </comp>
+    <comp ref="FTDI1">
+      <value>ICSP-Interface-1x6_female_pins</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Category">THT</field>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Mouser Part Number">---</field>
+        <field name="Name">Programmer</field>
+      </fields>
+      <libsource lib="_Custom" part="FTDI-6pin-Header" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9E4D8</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB546FC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATMEGA328P-AUR</value>
+      <footprint>digikey-footprints:TQFP-32_7x7mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 32TQFP</field>
+        <field name="Digi-Key_PN">ATMEGA328P-AURCT-ND</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="MPN">ATMEGA328P-AUR</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Mouser Part Nbr.">556-ATMEGA328P-AU</field>
+        <field name="Mouser Part Number">556-ATMEGA328P-AU</field>
+        <field name="Name">MCU</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Embedded-Microcontrollers" part="ATMEGA328P-AUR" description="IC MCU 8BIT 32KB FLASH 32TQFP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA55AA7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JST_2MM_MALE</value>
+      <footprint>Connectors:JST-2-SMD</footprint>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Field4">JST PH Conn</field>
+        <field name="Mouser Part Nbr.">adafruit 1769</field>
+        <field name="Mouser Part Number">adafruit 1769</field>
+        <field name="Name">Battery Connector</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="JST_2MM_MALE" description="JST 2MM MALE RA CONNECTOR Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries. &lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8612&quot;&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf&quot;&gt;Datasheet&lt;/a&gt;&lt;/ul&gt; &lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11214&quot;&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/13777&quot;&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD9F38F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA38959</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>red</value>
+      <footprint>LED:LED_3MM</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">THT</field>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Mouser Part Number">---</field>
+        <field name="Name">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE43075</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>yellow</value>
+      <footprint>LED:LED_3MM</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">THT</field>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Mouser Part Number">---</field>
+        <field name="Name">LED</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4425A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE47C5E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE48CB5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Micro-SD_Molex_104031-0811</value>
+      <datasheet>https://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Mouser Part Nbr.">538-104031-0811</field>
+        <field name="Mouser Part Number">538-104031-0811</field>
+        <field name="Name">MicroSD Slot</field>
+        <field name="ambient temperature range high">+85°C</field>
+        <field name="ambient temperature range low">-25°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">0.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Memory Connectors</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN MICRO SD CARD PUSH-PULL R/A</field>
+        <field name="digikey part number">WM6357CT-ND</field>
+        <field name="footprint url">https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf</field>
+        <field name="height">1.57mm</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">cbef20f8f25b3e67</field>
+        <field name="manufacturer">Molex</field>
+        <field name="memory type">FLASH</field>
+        <field name="mouser description">1.10mm Pitch microSD Memory Card Connector, SMT, Push-Pull Type, 1.42mm Height, with Detect Switch</field>
+        <field name="number of contacts">8</field>
+        <field name="package">CONN_MICROSD_SOCKET</field>
+        <field name="pitch">1.1mm</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-25°C</field>
+        <field name="voltage rating">10V</field>
+      </fields>
+      <libsource lib="_Custom" part="Conn_Micro-SD_Molex_104031-0811" description="1040310811"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAE3B8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3F26A</tstamp>
+    </comp>
+    <comp ref="LDO1">
+      <value>TPS74533PQWDRVRQ1</value>
+      <datasheet>https://www.ti.com/lit/gpn/TPS745-Q1</datasheet>
+      <fields>
+        <field name="Description">LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS74533PQWDRVRQ1</field>
+        <field name="Mouser Part Nbr.">595-PS74533PQWDRVRQ1</field>
+        <field name="Mouser Part Number">595-PS74533PQWDRVRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS74533PQWDRVRQ1?qs=%252B6g0mu59x7KMjoigNjBCww%3D%3D</field>
+        <field name="Name">Regulator</field>
+      </fields>
+      <libsource lib="_Custom" part="TPS74533PQWDRVRQ1" description="LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6DA20</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB76BCF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB9E100</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24040DSQT</value>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24040.pdf?ts=1595904107717&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ24040DSQT%2526keyMatch%253DBQ24040DSQT%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN</datasheet>
+      <fields>
+        <field name="Mouser Part Nbr.">595-BQ24040DSQT</field>
+        <field name="Mouser Part Number">595-BQ24040DSQT</field>
+        <field name="Name">Charging IC</field>
+        <field name="automotive">No</field>
+        <field name="category">IC</field>
+        <field name="ciiva ids">960547</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">Power Management ICs</field>
+        <field name="device class L3">Battery Management</field>
+        <field name="digikey description">IC BATT CHG LI-ION 1 CELL 10SON</field>
+        <field name="digikey part number">296-25136-1-ND</field>
+        <field name="height">0.8mm</field>
+        <field name="ipc land pattern name">DFN200X200X75-10</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">ea5d3f6bf82084f4</field>
+        <field name="manufacturer">Texas Instruments</field>
+        <field name="max junction temp">+125°C</field>
+        <field name="max supply voltage">28V</field>
+        <field name="min supply voltage">3.5V</field>
+        <field name="mouser description">IC BATT CHG LI-ION 1 CELL 10SON</field>
+        <field name="nominal supply current">0.8mA</field>
+        <field name="number of cells">1</field>
+        <field name="number of outputs">1</field>
+        <field name="output voltage">4.2V</field>
+        <field name="package">WSON10</field>
+        <field name="release date">1464339245</field>
+        <field name="rohs">Yes</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">0°C</field>
+      </fields>
+      <libsource lib="_Custom" part="BQ24040DSQT" description="BQ24040DSQT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBB1269</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBEACC3</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Name">Thermistor</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBF01FE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC09F32</tstamp>
+    </comp>
+    <comp ref="GPS1">
+      <value>ORG1410</value>
+      <fields>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Mouser Part Number">---</field>
+        <field name="Name">GPS-IC</field>
+      </fields>
+      <libsource lib="_Custom" part="ORG1410" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC59FA7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC7126E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC72095</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>VEMI45AA-HNH-GS08</value>
+      <datasheet>https://www.vishay.com/docs/81385/vemi45aa.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">VEMI45AA-HNH-GS08</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemi45aa-hnh-gs08/vishay</field>
+        <field name="Description">ESD PROTECTION DIODE LLP1713-e4</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEMI45AA-HNH-GS08</field>
+        <field name="Mouser Part Nbr.">78-VEMI45AA-HNH</field>
+        <field name="Mouser Part Number">78-VEMI45AA-HNH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMI45AA-HNH-GS08?qs=wo%252BHxaeevUiQEs3I46NFNg%3D%3D</field>
+        <field name="Name">EMI filter</field>
+      </fields>
+      <libsource lib="_Custom" part="VEMI45AA-HNH-GS08" description="ESD PROTECTION DIODE LLP1713-e4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA5241</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAF2BF1</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB18049</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>CUS-13TB PCM12SMTR</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Mouser Part Nbr.">CUS-13TB PCM12SMTR</field>
+        <field name="Mouser Part Number">CUS-13TB PCM12SMTR</field>
+        <field name="Name">Switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA5E89D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC57962</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TXS0102DCTR</value>
+      <fields>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Name">Logic shifter</field>
+      </fields>
+      <libsource lib="_Custom" part="TXS0102DCTR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC78247</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLV70018DSET</value>
+      <fields>
+        <field name="MPN">TLV70018DSET</field>
+        <field name="Mouser Part Nbr.">---</field>
+        <field name="Name">Regulator</field>
+        <field name="OC_FARNELL">-</field>
+        <field name="OC_NEWARK">50R8009</field>
+        <field name="PACKAGE">SON-6</field>
+        <field name="SUPPLIER">Texas Instruments</field>
+      </fields>
+      <libsource lib="_Custom" part="TLV70018DSET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC7954E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9964A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC99C9B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD6785F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD87B09</tstamp>
+    </comp>
+    <comp ref="RTC1">
+      <value>MCP7940M</value>
+      <fields>
+        <field name="Name">low power RTC</field>
+      </fields>
+      <libsource lib="_Custom" part="MCP7940M" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC46B5C</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>RTC_Quarz</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Name">Crystal</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC483F7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>16p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4980F</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>16p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4A287</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Capasitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC7CA2B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB280B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB8792</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE9E065</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Category">SMD</field>
+        <field name="Name">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA91A2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="JST_2MM_MALE">
+      <description>JST 2MM MALE RA CONNECTOR Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries. &lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8612"&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf"&gt;Datasheet&lt;/a&gt;&lt;/ul&gt; &lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11214"&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*JST-2-SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JST_2MM_MALE</field>
+        <field name="Footprint">JST-2-SMD</field>
+        <field name="Field4">CONN-11443</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="BiDi"/>
+        <pin num="2" name="+" type="BiDi"/>
+        <pin num="NC1" name="PAD1" type="BiDi"/>
+        <pin num="NC2" name="PAD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Track-your-cat-rescue" part="USB_B_Micro-Connector">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="BQ24040DSQT">
+      <description>BQ24040DSQT</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq24040.pdf?ts=1595904107717&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ24040DSQT%2526keyMatch%253DBQ24040DSQT%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24040DSQT</field>
+        <field name="Footprint">Texas_Instruments-DSQ0010A-0-0-*</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq24040.pdf?ts=1595904107717&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ24040DSQT%2526keyMatch%253DBQ24040DSQT%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN</field>
+        <field name="automotive">No</field>
+        <field name="category">IC</field>
+        <field name="ciiva ids">960547</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">Power Management ICs</field>
+        <field name="device class L3">Battery Management</field>
+        <field name="digikey description">IC BATT CHG LI-ION 1 CELL 10SON</field>
+        <field name="digikey part number">296-25136-1-ND</field>
+        <field name="height">0.8mm</field>
+        <field name="ipc land pattern name">DFN200X200X75-10</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">ea5d3f6bf82084f4</field>
+        <field name="manufacturer">Texas Instruments</field>
+        <field name="max junction temp">+125°C</field>
+        <field name="max supply voltage">28V</field>
+        <field name="min supply voltage">3.5V</field>
+        <field name="mouser description">IC BATT CHG LI-ION 1 CELL 10SON</field>
+        <field name="mouser part number">595-BQ24040DSQT</field>
+        <field name="nominal supply current">0.8mA</field>
+        <field name="number of cells">1</field>
+        <field name="number of outputs">1</field>
+        <field name="output voltage">4.2V</field>
+        <field name="package">WSON10</field>
+        <field name="release date">1464339245</field>
+        <field name="rohs">Yes</field>
+        <field name="standoff height">0mm</field>
+        <field name="temperature range high">+125°C</field>
+        <field name="temperature range low">0°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="ISET" type="input"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="PRE-TERM" type="passive"/>
+        <pin num="5" name="~PG~" type="unspc"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="ISET2" type="passive"/>
+        <pin num="8" name="~CHG~" type="unspc"/>
+        <pin num="9" name="TS" type="passive"/>
+        <pin num="10" name="OUT" type="power_in"/>
+        <pin num="11" name="Thermal_Pad" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="Conn_Micro-SD_Molex_104031-0811">
+      <description>1040310811</description>
+      <docs>https://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Micro-SD_Molex_104031-0811</field>
+        <field name="Footprint">Molex-1040310811-*</field>
+        <field name="Datasheet">https://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf</field>
+        <field name="ambient temperature range high">+85°C</field>
+        <field name="ambient temperature range low">-25°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Conn</field>
+        <field name="contact material">Gold,Nickel</field>
+        <field name="current rating">0.5A</field>
+        <field name="device class L1">Connectors</field>
+        <field name="device class L2">Memory Connectors</field>
+        <field name="device class L3">unset</field>
+        <field name="digikey description">CONN MICRO SD CARD PUSH-PULL R/A</field>
+        <field name="digikey part number">WM6357CT-ND</field>
+        <field name="footprint url">https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf</field>
+        <field name="height">1.57mm</field>
+        <field name="is connector">yes</field>
+        <field name="is female">yes</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">cbef20f8f25b3e67</field>
+        <field name="manufacturer">Molex</field>
+        <field name="memory type">FLASH</field>
+        <field name="mouser description">1.10mm Pitch microSD Memory Card Connector, SMT, Push-Pull Type, 1.42mm Height, with Detect Switch</field>
+        <field name="mouser part number">538-104031-0811</field>
+        <field name="number of contacts">8</field>
+        <field name="package">CONN_MICROSD_SOCKET</field>
+        <field name="pitch">1.1mm</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-25°C</field>
+        <field name="voltage rating">10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="G1" name="~" type="power_in"/>
+        <pin num="G2" name="~" type="power_in"/>
+        <pin num="G3" name="~" type="power_in"/>
+        <pin num="G4" name="~" type="power_in"/>
+        <pin num="T1" name="~" type="BiDi"/>
+        <pin num="T2" name="~" type="BiDi"/>
+        <pin num="T3" name="~" type="BiDi"/>
+        <pin num="T4" name="~" type="power_in"/>
+        <pin num="T5" name="~" type="input"/>
+        <pin num="T6" name="~" type="power_in"/>
+        <pin num="T7" name="~" type="BiDi"/>
+        <pin num="T8" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="FTDI-6pin-Header">
+      <fields>
+        <field name="Reference">FTDI</field>
+        <field name="Value">FTDI-6pin-Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="CTS/GND2" type="BiDi"/>
+        <pin num="3" name="Vcc" type="BiDi"/>
+        <pin num="4" name="TXout" type="output"/>
+        <pin num="5" name="RXin" type="input"/>
+        <pin num="6" name="DTR(Reset)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="MCP7940M">
+      <fields>
+        <field name="Reference">RTC</field>
+        <field name="Value">MCP7940M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="NC" type="3state"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="BiDi"/>
+        <pin num="7" name="MFP" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="ORG1410">
+      <fields>
+        <field name="Reference">GPS</field>
+        <field name="Value">ORG1410</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ON/OFF" type="input"/>
+        <pin num="2" name="1PPS" type="output"/>
+        <pin num="3" name="TX/MISO" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="WAKEUP" type="output"/>
+        <pin num="7" name="!CTS/SCK" type="BiDi"/>
+        <pin num="8" name="RESET" type="input"/>
+        <pin num="9" name="RTS/CS" type="BiDi"/>
+        <pin num="10" name="RX/MOSI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="TLV70018DSET">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70018DSET</field>
+        <field name="Footprint">SON50P150X150X80-6N</field>
+        <field name="MPN">TLV70018DSET</field>
+        <field name="OC_FARNELL">-</field>
+        <field name="OC_NEWARK">50R8009</field>
+        <field name="SUPPLIER">Texas Instruments</field>
+        <field name="PACKAGE">SON-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="NC_2" type="BiDi"/>
+        <pin num="5" name="NC" type="BiDi"/>
+        <pin num="6" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="TPS74533PQWDRVRQ1">
+      <description>LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125</description>
+      <docs>https://www.ti.com/lit/gpn/TPS745-Q1</docs>
+      <fields>
+        <field name="Reference">LDO</field>
+        <field name="Value">TPS74533PQWDRVRQ1</field>
+        <field name="Footprint">SON65P200X200X80-7N</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/TPS745-Q1</field>
+        <field name="Description">LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS74533PQWDRVRQ1</field>
+        <field name="Mouser Part Number">595-PS74533PQWDRVRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS74533PQWDRVRQ1?qs=%252B6g0mu59x7KMjoigNjBCww%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="FB/NC" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="PG" type="passive"/>
+        <pin num="6" name="IN" type="passive"/>
+        <pin num="7" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="TXS0102DCTR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXS0102DCTR</field>
+        <field name="Footprint">SOP65P400X130-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCCA" type="power_in"/>
+        <pin num="4" name="A2" type="BiDi"/>
+        <pin num="5" name="A1" type="BiDi"/>
+        <pin num="6" name="OE" type="input"/>
+        <pin num="7" name="VCCB" type="power_in"/>
+        <pin num="8" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="_Custom" part="VEMI45AA-HNH-GS08">
+      <description>ESD PROTECTION DIODE LLP1713-e4</description>
+      <docs>https://www.vishay.com/docs/81385/vemi45aa.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">VEMI45AA-HNH-GS08</field>
+        <field name="Footprint">SON40P135X170X60-9N-D</field>
+        <field name="Datasheet">https://www.vishay.com/docs/81385/vemi45aa.pdf</field>
+        <field name="Description">ESD PROTECTION DIODE LLP1713-e4</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VEMI45AA-HNH-GS08</field>
+        <field name="Arrow Part Number">VEMI45AA-HNH-GS08</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vemi45aa-hnh-gs08/vishay</field>
+        <field name="Mouser Part Number">78-VEMI45AA-HNH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMI45AA-HNH-GS08?qs=wo%252BHxaeevUiQEs3I46NFNg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_1" type="passive"/>
+        <pin num="2" name="IN_2" type="passive"/>
+        <pin num="3" name="IN_3" type="passive"/>
+        <pin num="4" name="IN_4" type="passive"/>
+        <pin num="5" name="OUT_1" type="passive"/>
+        <pin num="6" name="OUT_2" type="passive"/>
+        <pin num="7" name="OUT_3" type="passive"/>
+        <pin num="8" name="OUT_4" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Embedded-Microcontrollers" part="ATMEGA328P-AUR">
+      <description>IC MCU 8BIT 32KB FLASH 32TQFP</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA328P-AUR</field>
+        <field name="Footprint">digikey-footprints:TQFP-32_7x7mm</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="Digi-Key_PN">ATMEGA328P-AURCT-ND</field>
+        <field name="MPN">ATMEGA328P-AUR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Embedded - Microcontrollers</field>
+        <field name="DK_Datasheet_Link">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 32TQFP</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="BiDi"/>
+        <pin num="2" name="PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="PB6" type="BiDi"/>
+        <pin num="8" name="PB7" type="BiDi"/>
+        <pin num="9" name="PD5" type="BiDi"/>
+        <pin num="10" name="PD6" type="BiDi"/>
+        <pin num="11" name="PD7" type="BiDi"/>
+        <pin num="12" name="PB0" type="BiDi"/>
+        <pin num="13" name="PB1" type="BiDi"/>
+        <pin num="14" name="PB2" type="BiDi"/>
+        <pin num="15" name="PB3" type="BiDi"/>
+        <pin num="16" name="PB4" type="BiDi"/>
+        <pin num="17" name="PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="BiDi"/>
+        <pin num="24" name="PC1" type="BiDi"/>
+        <pin num="25" name="PC2" type="BiDi"/>
+        <pin num="26" name="PC3" type="BiDi"/>
+        <pin num="27" name="PC4" type="BiDi"/>
+        <pin num="28" name="PC5" type="BiDi"/>
+        <pin num="29" name="PC6" type="BiDi"/>
+        <pin num="30" name="PD0" type="BiDi"/>
+        <pin num="31" name="PD1" type="BiDi"/>
+        <pin num="32" name="PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:/Users/patri/Dropbox/KiCAD/_KiCAD Libraries/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Track-your-cat-rescue">
+      <uri>C:\Users\patri\Dropbox\KiCAD\Track-your-cat/Track-your-cat-rescue.lib</uri>
+    </library>
+    <library logical="_Custom">
+      <uri>C:/Users/patri/Dropbox/KiCAD/_Symbol_Libraries/_Custom.lib</uri>
+    </library>
+    <library logical="dk_Embedded-Microcontrollers">
+      <uri>C:/Users/patri/Dropbox/KiCAD/_KiCAD Libraries/digikey-kicad-library-master/digikey-symbols/dk_Embedded-Microcontrollers.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(LDO1-Pad5)">
+      <node ref="LDO1" pin="5"/>
+    </net>
+    <net code="3" name="nRESET">
+      <node ref="GPS1" pin="8"/>
+    </net>
+    <net code="4" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="5" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="6" name="TSense">
+      <node ref="TH1" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(GPS1-Pad10)">
+      <node ref="GPS1" pin="10"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="9" name="1PPS">
+      <node ref="GPS1" pin="2"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(GPS1-Pad7)">
+      <node ref="IC1" pin="1"/>
+      <node ref="GPS1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(GPS1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="GPS1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad7)">
+      <node ref="R7" pin="2"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="17" name="+1V8">
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="GPS1" pin="4"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="18" name="Net-(GPS1-Pad9)">
+      <node ref="IC1" pin="2"/>
+      <node ref="GPS1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(GPS1-Pad1)">
+      <node ref="GPS1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="20" name="+3V3">
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="RTC1" pin="8"/>
+      <node ref="LDO1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="FTDI1" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J3" pin="T4"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="RTC1" pin="6"/>
+    </net>
+    <net code="22" name="SDA">
+      <node ref="U2" pin="27"/>
+      <node ref="R12" pin="1"/>
+      <node ref="RTC1" pin="5"/>
+    </net>
+    <net code="23" name="INT">
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="32"/>
+      <node ref="RTC1" pin="7"/>
+    </net>
+    <net code="24" name="Bat+">
+      <node ref="C18" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="25" name="A0">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="26" name="Net-(C22-Pad1)">
+      <node ref="Y2" pin="2"/>
+      <node ref="RTC1" pin="2"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="Y2" pin="1"/>
+      <node ref="RTC1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(RTC1-Pad3)">
+      <node ref="RTC1" pin="3"/>
+    </net>
+    <net code="29" name="Bat-">
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="NC1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="NC2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J3" pin="T6"/>
+      <node ref="J3" pin="G1"/>
+      <node ref="J3" pin="G2"/>
+      <node ref="J3" pin="G3"/>
+      <node ref="J3" pin="G4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="LDO1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="LDO1" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="TH1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="RTC1" pin="4"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="GPS1" pin="5"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="FTDI1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="FTDI1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="31" name="RX">
+      <node ref="U2" pin="30"/>
+      <node ref="FTDI1" pin="4"/>
+    </net>
+    <net code="32" name="TX">
+      <node ref="U2" pin="31"/>
+      <node ref="FTDI1" pin="5"/>
+    </net>
+    <net code="33" name="DTR">
+      <node ref="C8" pin="2"/>
+      <node ref="FTDI1" pin="6"/>
+    </net>
+    <net code="34" name="A7">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="35" name="CS">
+      <node ref="R9" pin="1"/>
+      <node ref="J3" pin="T2"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="36" name="MOSI">
+      <node ref="U2" pin="15"/>
+      <node ref="J3" pin="T3"/>
+    </net>
+    <net code="37" name="MISO">
+      <node ref="J3" pin="T7"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="38" name="SCK">
+      <node ref="U2" pin="17"/>
+      <node ref="J3" pin="T5"/>
+    </net>
+    <net code="39" name="A6">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="40" name="S_TX">
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="41" name="D9">
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="42" name="A1">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="43" name="A2">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="44" name="A3">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="45" name="µRESET">
+      <node ref="R1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="46" name="S_RX">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="47" name="WAKEUP">
+      <node ref="GPS1" pin="6"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="48" name="D8">
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="50" name="Net-(C11-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="53" name="Net-(LDO1-Pad2)">
+      <node ref="LDO1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C2-Pad1)">
+      <node ref="LDO1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="LDO1" pin="6"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="57" name="Net-(C12-Pad1)">
+      <node ref="U2" pin="20"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D2-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="59" name="XTAL1">
+      <node ref="Y1" pin="3"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="60" name="XTAL2">
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="61" name="GPS_ON">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="62" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="63" name="Net-(J3-PadT8)">
+      <node ref="J3" pin="T8"/>
+    </net>
+    <net code="64" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="65" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J3-PadT1)">
+      <node ref="J3" pin="T1"/>
+    </net>
+    <net code="67" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+  </nets>
+</export>

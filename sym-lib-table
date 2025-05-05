@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Track-your-cat-rescue)(type Legacy)(uri ${KIPRJMOD}/Track-your-cat-rescue.lib)(options "")(descr ""))
+)
