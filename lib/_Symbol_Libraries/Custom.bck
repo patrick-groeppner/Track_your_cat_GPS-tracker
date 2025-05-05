@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS712
+D 20A Hall Effect Current Sensor - Breakout Board with 3 pins
+$ENDCMP
+#
+$CMP ADS1115_16bit_ADC
+D 16bit 4 Channel AD Wandler auf Breakout-Board
+K 16bit, ADC, ADS1115
+$ENDCMP
+#
+$CMP HC-SR04_Ultraschall_Sensor
+D HC-SR04 Ultraschall Modul Entfernungsmesser Sensor
+F C:\Users\stonehedge24\Desktop\datasheets\HC-SR04 Ultraschallmodule Datenblatt.pdf
+$ENDCMP
+#
+$CMP I2C-0.91inch-OLED-Display
+D 3 x 128 x 32 Pixel 0,91 Zoll OLED I2C Display mit Display Controller SSD1306
+K I2C, SSD1306
+$ENDCMP
+#
+$CMP KY-008_Laser_Sensor
+D KY-008 Laser Sensor Modul 650nm
+F C:\Users\stonehedge24\Desktop\datasheets\KY-008 Laser Transmitter Modul Datenblatt AZ-Delivery Vertriebs GmbH.pdf
+$ENDCMP
+#
+$CMP KY-040_Rotary_Encoder
+D KY-040 Drehwinkelgeber Drehgeber Rotary Encoder Modul
+F C:\Users\stonehedge24\Documents\KiCAD\_Symbol_Libraries\KY-040-datasheet.txt
+$ENDCMP
+#
+$CMP KZH20-1_Knopf_Batterie_Halter
+D KZH H20-1 (E40-032) Knopf Batterie Halter
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,59 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP9101CK6-ANTRG1
+D Battery Management Multicell Batt Manager
+F https://www.diodes.com/assets/Datasheets/AP9101C.pdf
+$ENDCMP
+#
+$CMP BQ24040DSQT
+D BQ24040DSQT
+F https://www.ti.com/lit/ds/symlink/bq24040.pdf?ts=1595904107717&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DBQ24040DSQT%2526keyMatch%253DBQ24040DSQT%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN
+$ENDCMP
+#
+$CMP Conn_Micro-SD_Molex_104031-0811
+D 1040310811
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/1040310811_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP DMG6968UDM-7
+D Diodes Inc DMG6968UDM-7 Dual N-channel MOSFET Transistor, 6.5 A, 20 V, 6-Pin SOT-26
+F https://www.diodes.com/assets/Datasheets/ds31758.pdf
+$ENDCMP
+#
+$CMP MOSFET_DGS
+D N-MOSFET transistor, drain/gate/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP PCM12SMTR
+D Slide Switches 0.3A SPDT ON-ON
+F http://uk.rs-online.com/web/p/products/7931721P
+$ENDCMP
+#
+$CMP TLV7031DCKR
+D Nanopower, small size comparator with push-pull output
+F http://www.ti.com/lit/gpn/tlv7031
+$ENDCMP
+#
+$CMP TP4056
+D 1A Standalone Linear Li-lon Battery Charger, SOP-8
+F https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf
+$ENDCMP
+#
+$CMP TPS71718DCKR
+D 150mA, High PSRR, Low Quiescent Current, Low Noise LDO
+F http://www.ti.com/lit/gpn/tps717
+$ENDCMP
+#
+$CMP TPS74533PQWDRVRQ1
+D LDO Voltage Regulators Automotive 500-mA low-dropout (LDO) regulator with power good 6-WSON -40 to 125
+F https://www.ti.com/lit/gpn/TPS745-Q1
+$ENDCMP
+#
+$CMP VEMI45AA-HNH-GS08
+D ESD PROTECTION DIODE LLP1713-e4
+F https://www.vishay.com/docs/81385/vemi45aa.pdf
+$ENDCMP
+#
+#End Doc Library
